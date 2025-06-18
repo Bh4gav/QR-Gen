@@ -22,7 +22,7 @@ const QRGenerator = () => {
       setTimeout(() => {
         setQrUrl(qrApi);
         setLoading(false);
-      }, 404);
+      }, 500);
     } catch {
       alert("Please enter a valid URL (with https://)");
       setLoading(false);
